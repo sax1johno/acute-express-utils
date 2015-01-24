@@ -1,0 +1,41 @@
+{
+    "name": "acute-express-utils",
+    "description": "An aCute app plugin with utilities used in the acute-express-* plugins",
+    "version": "0.1.0",
+    "main": "lib/index.js",
+    "author": {
+        "name": "John O'Connor",
+        "email": "sax1johno@gmail.com"
+    },
+    "contributors": [{
+        "name": "John O'Connor",
+        "email": "sax1johno@gmail.com"
+    }],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sax1johno/acute-express-utils.git"
+    },
+    "bugs": {
+        "url": "https://github.com/sax1johno/acute-express-utils/issues"
+    },
+    "homepage": "https://github.com/sax1johno/acute-express-utils",
+    "keywords": [
+        "acute",
+        "express",
+        "utils",
+        "utilities"
+    ],
+    "license": "MIT",
+    "dependencies": {
+        "async": "*",
+        "underscore": "*",
+        "architect": "*",
+        "path": "*",
+        "findit": "*",
+        "fs": "*",
+        "util": "*"
+    },
+    "plugin": {
+        "provides": ["utils"]
+    }
+}
