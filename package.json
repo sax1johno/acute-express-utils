@@ -32,7 +32,6 @@
         "architect": "*",
         "path": "*",
         "findit": "*",
-        "fs": "*",
         "util": "*"
     },
     "plugin": {
